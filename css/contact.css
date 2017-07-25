@@ -1,0 +1,77 @@
+body, ul, li, nav, header, h1, small, h2, p{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body{
+    background-image: url("../image/space-11331_1920.jpg");
+    background-size: cover;
+}
+
+nav{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: hsla(35, 99%, 48%, .25);
+}
+
+ul{
+    display: flex;
+}
+
+small{
+    font-size: .5em;
+}
+
+li{
+    list-style-type: none;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 5px 5px 5px black;
+    font-size: 1.5em;
+}
+
+h1{
+    font-size: 3.75em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contact{
+    background-color:  hsla(35, 99%, 48%, .25);
+    margin-left: 18em;
+    margin-right: 18em;
+    display: flex;
+    margin-top: .5em;
+    color: white;
+}
+
+img{
+    width: 550px;
+    height: 550px;
+}
+
+.detail{
+    margin-left: 1em;
+    margin-top: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.detail h1{
+    font-size: 3em; 
+}
+
+.detail h2{
+    font-size: 2em;
+}
+
+.detail p{
+    margin-top: 1em;
+}

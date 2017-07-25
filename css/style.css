@@ -1,0 +1,56 @@
+body, ul, li, nav, header, h1, small, h2, p{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body{
+    background-image: url("../image/space-11331_1920.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+nav{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content:flex-end;
+    background-color:  hsla(35, 99%, 48%, .25);
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    font-size: 1.5em;
+    list-style-type: none;
+    padding-left: 1em;
+    padding-top: 1em; 
+}
+
+small{
+    font-size: .5em;
+}
+
+
+h1{
+    font-size: 8em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 5px 5px 5px black;
+    font-size: 1.5em;
+}       
+
+
+
+    
+    

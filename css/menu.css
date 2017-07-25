@@ -1,0 +1,83 @@
+body, ul, li, nav, header, h1, small, h2, p{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body{
+    background-image: url("../image/space-11331_1920.jpg");
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:  hsla(35, 99%, 48%, .25);
+}
+
+nav h1{
+    font-size: 3.75em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+}
+
+nav small{
+    font-size: .5em;
+}
+
+nav ul{
+    display: flex; 
+}
+
+nav li{
+    list-style-type: none;
+    padding-left: 1em;
+    padding-top: 1em;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px black;
+    font-size: 1.5em;
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: .20em;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    height: 35em;
+}
+
+h1{
+    padding-top: .15em;
+    font-size: 5em;
+    text-transform: uppercase;
+    text-decoration: overline underline;
+    text-decoration-style:double;
+    font-family: 'Tangerine', cursive;
+}
+
+h2{
+    font-size: 2.5em;
+    font-family: 'Tangerine', cursive;
+    padding-top: .5em;
+    text-decoration: underline; 
+}
+
+li{
+    text-transform: lowercase;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
