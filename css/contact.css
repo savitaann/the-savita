@@ -7,6 +7,7 @@ body, ul, li, nav, header, h1, small, h2, p{
 body{
     background-image: url("../image/space-11331_1920.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav{

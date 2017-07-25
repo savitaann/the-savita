@@ -8,6 +8,7 @@ body{
     background-image: url("../image/space-11331_1920.jpg");
     background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
 }
 
 nav{
